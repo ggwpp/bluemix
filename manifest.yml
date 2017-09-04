@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: ibmworkshop
+  buildpack: liberty-for-java
+  path: ./target/ibmworkshop.zip
+  memory: 512M
+  random-route: true
